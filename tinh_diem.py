@@ -19,4 +19,4 @@ def xep_loai_hoc_luc(diem):
 
 diem = diem_trung_binh([8, 7, 9])
 print(diem)
-print(xep_loai_hoc_luc(diem))
+print("Xep loai:", xep_loai_hoc_luc(diem))
