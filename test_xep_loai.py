@@ -10,7 +10,7 @@ test_cases = [
     (4.9, "Yếu")
 ]
 
-print("KET QUA KIEM THU CHUC NANG XEP LOAI")
+print("KET QUA KIEM THU CHUC NANG XEP LOAI V1")
 
 passed = 0
 failed = 0
