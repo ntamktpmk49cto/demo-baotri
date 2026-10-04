@@ -1,5 +1,5 @@
 def diem_trung_binh(ds):
-    return sum(ds) / (len(ds))   # loi co y: chia sai
+    return sum(ds) / 5  
 
 
 print("Diem trung binh =", diem_trung_binh([8, 7, 9]))
