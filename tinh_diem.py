@@ -1,11 +1,6 @@
 def diem_trung_binh(ds):
-    return sum(ds) / 5  
+    return sum(ds) / len(ds) 
 
-
-print("Diem trung binh =", diem_trung_binh([8, 7, 9]))
-
-def diem_trung_binh(ds):
-    return sum(ds) / len(ds)
 
 def xep_loai_hoc_luc(diem):
     if diem >= 8.5:
