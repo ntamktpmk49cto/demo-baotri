@@ -1,9 +1,5 @@
 def diem_trung_binh(ds):
-<<<<<<< HEAD
-    return sum(ds) / (len(ds))   # loi co y: chia sai
-=======
-    return sum(ds) / len(ds) 
->>>>>>> a4447e5 (fix: sua loi cong thuc tinh diem)
+    return int(sum(ds) / len(ds))
 
 
 def xep_loai_hoc_luc(diem):
