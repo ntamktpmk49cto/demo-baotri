@@ -1,11 +1,10 @@
 def diem_trung_binh(ds):
+<<<<<<< HEAD
     return sum(ds) / (len(ds))   # loi co y: chia sai
+=======
+    return sum(ds) / len(ds) 
+>>>>>>> a4447e5 (fix: sua loi cong thuc tinh diem)
 
-
-print("Diem trung binh =", diem_trung_binh([8, 7, 9]))
-
-def diem_trung_binh(ds):
-    return sum(ds) / len(ds)
 
 def xep_loai_hoc_luc(diem):
     if diem >= 8.5:
