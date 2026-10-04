@@ -1,5 +1,5 @@
 def diem_trung_binh(ds):
-    return int(sum(ds) / len(ds))
+    return round(sum(ds) / len(ds), 2)
 
 
 def xep_loai_hoc_luc(diem):
@@ -12,6 +12,6 @@ def xep_loai_hoc_luc(diem):
     else:
         return "Yếu"
 
-diem = diem_trung_binh([8, 7, 9])
+diem = diem_trung_binh([7, 8, 8])
 print(diem)
 print("Xep loai:", xep_loai_hoc_luc(diem))
