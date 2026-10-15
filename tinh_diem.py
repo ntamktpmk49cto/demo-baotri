@@ -1,5 +1,9 @@
+
 def diem_trung_binh(ds):
+    if not ds:
+        raise ValueError("Danh sach diem khong duoc rong")
     return round(sum(ds) / len(ds), 2)
+
 
 
 def xep_loai_hoc_luc(diem):
