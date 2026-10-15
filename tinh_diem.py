@@ -15,3 +15,5 @@ def xep_loai_hoc_luc(diem):
 diem = diem_trung_binh([7, 8, 8])
 print(diem)
 print("Xep loai:", xep_loai_hoc_luc(diem))
+
+# Maintenance CI check
