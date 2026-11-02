@@ -5,11 +5,9 @@ def diem_trung_binh(ds):
 fix/invalid-score-demo
 
     if any(d < 0 or d > 10 for d in ds):
-        raise ValueError(
-            "Diem khong hop le: phai tu 0 den 10"
-        )
+        raise ValueError("Diem khong hop le: phai tu 0 den 10")
 
-    return sum(ds) / len(ds)
+    return round(sum(ds) / len(ds), 2)
 
     return round(sum(ds) / len(ds), 2)
 main
