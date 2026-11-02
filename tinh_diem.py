@@ -1,6 +1,8 @@
+
 def diem_trung_binh(ds):
     if not ds:
         raise ValueError("Danh sach diem khong duoc rong")
+fix/invalid-score-demo
 
     if any(d < 0 or d > 10 for d in ds):
         raise ValueError(
@@ -8,6 +10,10 @@ def diem_trung_binh(ds):
         )
 
     return sum(ds) / len(ds)
+
+    return round(sum(ds) / len(ds), 2)
+main
+
 
 
 def xep_loai_hoc_luc(diem):
@@ -23,3 +29,5 @@ def xep_loai_hoc_luc(diem):
 diem = diem_trung_binh([7, 8, 8])
 print(diem)
 print("Xep loai:", xep_loai_hoc_luc(diem))
+
+# Maintenance CI check
