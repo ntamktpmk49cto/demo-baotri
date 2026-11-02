@@ -1,5 +1,13 @@
 def diem_trung_binh(ds):
-    return round(sum(ds) / len(ds), 2)
+    if not ds:
+        raise ValueError("Danh sach diem khong duoc rong")
+
+    if any(d < 0 or d > 10 for d in ds):
+        raise ValueError(
+            "Diem khong hop le: phai tu 0 den 10"
+        )
+
+    return sum(ds) / len(ds)
 
 
 def xep_loai_hoc_luc(diem):
